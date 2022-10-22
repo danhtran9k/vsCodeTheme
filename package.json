@@ -1,10 +1,14 @@
 {
-  "name": "danh-dracula",
-  "displayName": "danh-dracula",
-  "description": "dracula-with-italics",
+  "name": "danh-dracula-italic",
+  "displayName": "danh-dracula-italic",
+  "description": "dracula-with-italic",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.72.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:danhtran9k/vsCodeTheme.git"
   },
   "categories": [
     "Themes"
@@ -12,9 +16,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "danh-dracula",
+        "label": "Dracula-italic",
         "uiTheme": "vs-dark",
-        "path": "./themes/danh-dracula-color-theme.json"
+        "path": "./themes/dracula-italic.json"
       }
     ]
   }

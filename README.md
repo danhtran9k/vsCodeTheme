@@ -14,3 +14,13 @@ You can author your README using Visual Studio Code. Here are some useful editor
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!**
+
+npm install -g yo generator-code
+yo generator
+ --> init project w yo generator 
+ --> create json file
+npm install -g vsce
+vsce package
+ --> create vscode extension file
+code --install-extension [ext-name.vsix]
+ ==> install with above command
