@@ -1,0 +1,21 @@
+{
+  "name": "danh-dracula",
+  "displayName": "danh-dracula",
+  "description": "dracula-with-italics",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "danh-dracula",
+        "uiTheme": "vs-dark",
+        "path": "./themes/danh-dracula-color-theme.json"
+      }
+    ]
+  }
+}
